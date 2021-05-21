@@ -8,6 +8,8 @@ trigger:
 
 pool:
   vmImage: 'MyAgentPool'
+  demands:
+   npm
 
 variables:
   solution: '**/*.sln'
